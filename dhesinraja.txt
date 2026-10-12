@@ -1,0 +1,32 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello.java");
+        System.out.println("Welcome to programming");
+        System.out.println("My journey starts today");
+    }
+}
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter College Name:");
+        String college = sc.nextLine();
+
+        System.out.println("Enter Department:");
+        String dept = sc.nextLine();
+
+        System.out.println("Enter Course Name:");
+        String course = sc.nextLine();
+
+        System.out.println("College: " + college);
+        System.out.println("Department: " + dept);
+        System.out.println("Course: " + course);
+
+        sc.close();
+    }
+}
+
+
